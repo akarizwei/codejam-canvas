@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>codejam-canvas</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+    <h1>Codejam-Canvas</h1>
+</header>
+
+<main>
+    <div class="wrapper">
+        <div class="leftbox">
+            <div class="toolbox">
+                <div class="tools"><img src="assets/images/icon-share.png" alt="image">
+                    <button>Paint bucket</button>
+                </div>
+                <div class="tools"><img src="assets/images/icon-upload.png" alt="image">
+                    <button>Choose color</button>
+                </div>
+                <div class="tools"><img src="assets/images/icon-copy.png" alt="image">
+                    <button>Move</button>
+                </div>
+                <div class="tools"><img src="assets/images/icon-share2.png" alt="image">
+                    <button>Transform</button>
+                </div>
+            </div>
+            <div class="colorbox">
+                <div class="colors">
+                    <div class="circle grey"></div>
+                    <button>Current color</button>
+                </div>
+                <div class="colors">
+                    <div class="circle green"></div>
+                    <button>Previous color</button>
+                </div>
+                <div class="colors">
+                    <div class="circle red"></div>
+                    <button>Red</button>
+                </div>
+                <div class="colors">
+                    <div class="circle blue"></div>
+                    <button>Blue</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="canvas main-canvas">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div class="rightbox"></div>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
