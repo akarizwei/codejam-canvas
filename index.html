@@ -8,19 +8,35 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <h1>Codejam-Canvas</h1>
-    </header>
+<header>
+    <h1>Codejam-Canvas</h1>
+</header>
 
 <main>
     <div class="wrapper">
+        <div class="leftbox">
+            <div class="toolbox">
+                <div class="tools"><img src="" alt=""><button>Paint bucket</button></div>
+                <div class="tools"><img src="" alt=""><button>Choose color</button></div>
+                <div class="tools"><img src="" alt=""><button>Move</button></div>
+                <div class="tools"><img src="" alt=""><button>Transform</button></div>
+            </div>
+            <div class="colorbox">
+                <div class="colors"><div class="circle grey"></div><button>Current color</button></div>
+                <div class="colors"><div class="circle green"></div><button>Previous color</button></div>
+                <div class="colors"><div class="circle red"></div><button>Red</button></div>
+                <div class="colors"><div class="circle blue"></div><button>Blue</button></div>
+            </div>
+        </div>
+
+
 
         <div class="canvas main-canvas">
             <canvas id="canvas"></canvas>
         </div>
 
+        <div class="rightbox"></div>
 </main>
-
 <script src="script.js"></script>
 </body>
 </html>
